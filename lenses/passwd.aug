@@ -18,13 +18,13 @@ let comment    = Util.comment
 let empty      = Util.empty
 let dels       = Util.del_str
 
-let colon      = del /:/ ":"
+let word       = Rx.word
+let integer    = Rx.integer
+
+let colon      = Sep.colon
 
 let sto_to_col  = store /[^:\n]+/
 let sto_to_eol = store /([^ \t\n].*[^ \t\n]|[^ \t\n])/
-
-let word       = /[A-Za-z0-9_.-]+/
-let integer    = /[0-9]+/
 
 (************************************************************************
  *                               ENTRIES

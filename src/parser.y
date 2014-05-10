@@ -19,6 +19,10 @@
 
 #define YYDEBUG 1
 
+/* a bison 3 problem */
+
+#define YYID(n) (n)
+
 int augl_parse_file(struct augeas *aug, const char *name, struct term **term);
 
 typedef void *yyscan_t;

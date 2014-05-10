@@ -23,7 +23,7 @@ let integer    = Rx.integer
 
 let colon      = Sep.colon
 
-let sto_to_col  = store /[^:\n]+/
+let sto_to_col = store /[^:\n]+/
 let sto_to_eol = store /([^ \t\n].*[^ \t\n]|[^ \t\n])/
 
 (************************************************************************

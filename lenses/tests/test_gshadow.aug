@@ -7,18 +7,12 @@ sudo:x:suadmin1,suadmin2:coadmin1,coadmin2
 
 test Gshadow.lns get conf =
   { "root"
-    { "password" = "x" }
-    { "admins" }
-    { "members" } }
+    { "password" = "x" } }
   { "uucp"
-    { "password" = "x" }
-    { "admins" }
-    { "members" } }
+    { "password" = "x" } }
   { "sudo"
     { "password" = "x" }
-    { "admins"
-      { "admin" = "suadmin1" }
-      { "admin" = "suadmin2" } }
-    { "members"
-      { "member" = "coadmin1" }
-      { "member" = "coadmin2" } } }
+    { "admin" = "suadmin1" }
+    { "admin" = "suadmin2" }
+    { "member" = "coadmin1" }
+    { "member" = "coadmin2" } }

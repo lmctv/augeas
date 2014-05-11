@@ -46,8 +46,8 @@ let admin      = [ label "admin" . store word ]
 let admin_list = Build.opt_list admin comma
 
 let params     = [ label "password"  . store password  . colon ]
-		 . [ label "admins"  . admin_list?     . colon ]
-                 . [ label "members" . member_list? ]
+		 .  admin_list?     . colon
+                 .  member_list?
 
 let entry      = Build.key_value_line word colon params
 

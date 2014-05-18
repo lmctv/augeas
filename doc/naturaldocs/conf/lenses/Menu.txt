@@ -133,6 +133,7 @@ Group: Specific Modules  {
    File: Pam  (pam.aug)
    File: PamConf  (pamconf.aug)
    File: Pbuilder  (pbuilder.aug)
+   File: Persist_Net_Rules  (persist_net_rules.aug)
    File: Pg_Hba  (pg_hba.aug)
    File: Postfix_Transport  (postfix_transport.aug)
    File: Postfix_Virtual  (postfix_virtual.aug)

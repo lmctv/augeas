@@ -33,7 +33,7 @@ typedef struct info YYLTYPE;
   do {                                                                  \
     (Current).filename = augl_get_info(scanner)->filename;              \
     (Current).error = augl_get_info(scanner)->error;                    \
-    if (YYID (N)) {                                                     \
+    if (N) {                                                     \
         (Current).first_line   = YYRHSLOC (Rhs, 1).first_line;          \
         (Current).first_column = YYRHSLOC (Rhs, 1).first_column;        \
         (Current).last_line    = YYRHSLOC (Rhs, N).last_line;           \

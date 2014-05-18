@@ -134,6 +134,7 @@ lens_tests =			\
   lens-pamconf.sh		\
   lens-passwd.sh		\
   lens-pbuilder.sh		\
+  lens-persist_net_rules.sh     \
   lens-pg_hba.sh		\
   lens-php.sh			\
   lens-phpvars.sh		\
